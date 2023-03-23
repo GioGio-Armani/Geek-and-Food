@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #c93140;
+}
+.section-title {
+  background-color: #26262e;
+  text-align: center;
+  color: #fff;
+  margin-top: 25px;
+  padding: 5px 0;
+  font-size: 1.4rem;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 200px;
+  background-color: #26262e;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 150px;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header h1 a {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.2s;
+}
+header h1 a:hover {
+  color: #c93140;
+}
+.button-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.button-order i {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.button-order a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.button-order a:hover {
+  color: #c93140;
+}
+
+/* Week Cook */
+
+.week-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 40px 0;
+  padding: 0 20px;
+}
+.week-content img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
